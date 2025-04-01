@@ -33,7 +33,7 @@ body {
 }
 
 .menu-btn {
-    color: #afb4b7;
+    color: #5d5f5f;
     width: 20px;
     height: 20px;
 }
@@ -64,6 +64,8 @@ body {
     align-items: center;
     justify-content: center;
     color: #000000;
+    height: 45%;
+    font-size: 12px;
 }
 
 .navbar {
@@ -71,41 +73,50 @@ body {
     box-shadow: 0px 0px 10px #00000033;
     border-radius: 10px;
     grid-column: span 3;
-    height: 70px;
-}
-
-.search-section {
-    height: 40%;
+    height: 80px;
 }
 
 .calendar-section {
     display: flex;
     border-top: 1px solid #ebeef1;
     color: #000000;
-    height: 60%;
+    height: 55%;
     justify-content: space-evenly;
     align-items: center;
     font-size: 13px;
 }
 
 .calendar-section div {
-    border-radius: 15px;
-    width: 90px;
+    border-radius: 12px;
     display: flex;
     justify-content: center;
 }
 
-.calendar-section div:nth-child(2) {
+.calendar-section div svg {
+    width: 16px;
+}
+
+.calendar-section div:nth-child(3) {
     box-sizing: border-box;
     font-weight: bold;
-    border: 1px solid #5eff61;
     padding: 5px;
+    background: #e8edf1;
+    border: 1px solid #00000012;
+    color: #000000;
+    width: 85px;
+}
+
+.back-calendar-btn, .full-calendar-btn {
+    width: 10%;
 }
 
 /* ADS */
 
 .ad-container {
-    background-color: #9fffa1;
+    background-image: url(img/bet.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
     box-shadow: 0px 0px 10px #00000033;
     grid-column: span 3;
     border-radius: 10px;
@@ -113,7 +124,7 @@ body {
     flex-direction: column;
     justify-content: center;
     font-size: 12px;
-    height: 60px;
+    height: 190px;
 }
 
 .ad-container div {
@@ -142,6 +153,7 @@ body {
     display: flex;
     font-size: 10px;
     border-radius: 4px;
+    width: 200px;
     align-items: center;
 }
 
@@ -151,18 +163,24 @@ body {
 }
 
 .all-matches {
-    border-radius: 17px 0 0 17px;
+    border-radius: 12px 0 0 12px;
+    font-weight: 600;
     color: #000;
-    border-color: #5eff61;
+    width: 33%;
+    background-color: #e8edf1;
+    border: 1px solid #00000012;
+    text-align: center;
 }
 
 .live-matches {
     border-radius: 0;
     border-left: none;
+    width: 33%;
+    text-align: center;
 }
 
 .finished-matches {
-    border-radius: 0 17px 17px 0;
+    border-radius: 0 12px 12px 0;
     border-left: none;
 }
 
@@ -203,9 +221,12 @@ body {
 }
 
 .table-btn {
-    color: #000;
-    font-weight: bold;
-    display: none;
+    display: flex;
+}
+
+.table-btn svg {
+    width: 18px;
+    color: #afb4b7;
 }
 
 .match-versus {
@@ -295,7 +316,7 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #ebeef1;
-    background-color: #fff3d7;
+    background-color: #fffeea;
     height: 25px;
 }
 
