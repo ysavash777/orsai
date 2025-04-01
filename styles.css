@@ -33,7 +33,7 @@ body {
 }
 
 .menu-btn {
-    color: #5d5f5f;
+    color: #a8a8a8;
     width: 20px;
     height: 20px;
 }
@@ -98,7 +98,6 @@ body {
 
 .calendar-section div:nth-child(3) {
     box-sizing: border-box;
-    font-weight: bold;
     padding: 5px;
     background: #e8edf1;
     border: 1px solid #00000012;
