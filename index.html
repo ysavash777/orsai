@@ -15,11 +15,9 @@
                 <span class="text-logo">Orsai</span>
             </div>
             <div class="menu-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                    <path fill-rule="evenodd"
-                        d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
-                        clip-rule="evenodd" />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                  </svg>                  
             </div>
         </header>
 
@@ -29,7 +27,9 @@
             </div>
             <div class="calendar-section">
                 <div class="yesterday">29/3 Dom</div>
-                <div class="today">Hoy</div>
+                <div class="today">
+                    <span class="today-text">Hoy</span>
+                </div>
                 <div class="tomorrow">1/4 Mar</div>
             </div>
         </nav>
@@ -55,120 +55,83 @@
                 </div>
                 <div class="table-btn">VER TABLA</div>
             </div>
+            <!-- TV - ESC - NAME - SCORE - STATUS/TIME -->
             <div class="match-versus">
-                <div class="teams-container">
-                    <div class="team-info">
-                        <img src="img/riv.png" alt="" class="team-logo">
-                        <span class="team-name">River Plate</span>
-                        <span class="scores">3</span>
-                    </div>
-                    <div class="team-info">
-                        <img src="img/boc.png" alt="" class="team-logo">
-                        <span class="team-name">Boca Juniors</span>
-                        <span class="scores">1</span>
-                    </div>
+                <div class="tv-logo">
+                    <img src="img/espn.png" alt="">
                 </div>
-                <div class="match-status">
-                    <span class="status-info timer">63'</span>
-                </div>
-                <div class="notifications">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                        <path
-                            d="M5.85 3.5a.75.75 0 0 0-1.117-1 9.719 9.719 0 0 0-2.348 4.876.75.75 0 0 0 1.479.248A8.219 8.219 0 0 1 5.85 3.5ZM19.267 2.5a.75.75 0 1 0-1.118 1 8.22 8.22 0 0 1 1.987 4.124.75.75 0 0 0 1.48-.248A9.72 9.72 0 0 0 19.266 2.5Z" />
-                        <path fill-rule="evenodd"
-                            d="M12 2.25A6.75 6.75 0 0 0 5.25 9v.75a8.217 8.217 0 0 1-2.119 5.52.75.75 0 0 0 .298 1.206c1.544.57 3.16.99 4.831 1.243a3.75 3.75 0 1 0 7.48 0 24.583 24.583 0 0 0 4.83-1.244.75.75 0 0 0 .298-1.205 8.217 8.217 0 0 1-2.118-5.52V9A6.75 6.75 0 0 0 12 2.25ZM9.75 18c0-.034 0-.067.002-.1a25.05 25.05 0 0 0 4.496 0l.002.1a2.25 2.25 0 1 1-4.5 0Z"
-                            clip-rule="evenodd" />
-                    </svg>
 
+                <div class="teams-versus">
+                    <div class="team-container">
+                        <div class="team-logo">
+                            <img src="img/dyj.png" alt="logo" class="local-logo">
+                        </div>
+                        <div class="team-name">
+                            <span class="local-name">Defensa y Justicia</span>
+                        </div>
+                        <div class="scores">
+                            <span class="local-score">0</span>
+                        </div>
+                    </div>
+    
+                    <div class="team-container">
+                        <div class="team-logo">
+                            <img src="img/cco.png" alt="logo" class="local-logo">
+                        </div>
+                        <div class="team-name">
+                            <span class="local-name">Central Córdoba</span>
+                        </div>
+                        <div class="scores">
+                            <span class="local-score">0</span>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="match-status-ctn">
+                    <span class="timer">53'</span>
+                    <span class="hour"></span>
+                </div>
+
             </div>
+
             <div class="match-versus">
-                <div class="teams-container">
-                    <div class="team-info">
-                        <img src="img/rac.png" alt="" class="team-logo">
-                        <span class="team-name">Racing Club</span>
-                    </div>
-                    <div class="team-info">
-                        <img src="img/ind.png" alt="" class="team-logo">
-                        <span class="visit-name">Independiente</span>
-                    </div>
+                <div class="tv-logo">
+                    <img src="img/tnt.svg" alt="">
                 </div>
-                <div class="scores">
-                    <span class="local-score"></span>
-                    <span class="visit-score"></span>
-                </div>
-                <div class="match-status">
-                    <span class="status-info">15:30</span>
-                </div>
-                <div class="notifications">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                        <path
-                            d="M5.85 3.5a.75.75 0 0 0-1.117-1 9.719 9.719 0 0 0-2.348 4.876.75.75 0 0 0 1.479.248A8.219 8.219 0 0 1 5.85 3.5ZM19.267 2.5a.75.75 0 1 0-1.118 1 8.22 8.22 0 0 1 1.987 4.124.75.75 0 0 0 1.48-.248A9.72 9.72 0 0 0 19.266 2.5Z" />
-                        <path fill-rule="evenodd"
-                            d="M12 2.25A6.75 6.75 0 0 0 5.25 9v.75a8.217 8.217 0 0 1-2.119 5.52.75.75 0 0 0 .298 1.206c1.544.57 3.16.99 4.831 1.243a3.75 3.75 0 1 0 7.48 0 24.583 24.583 0 0 0 4.83-1.244.75.75 0 0 0 .298-1.205 8.217 8.217 0 0 1-2.118-5.52V9A6.75 6.75 0 0 0 12 2.25ZM9.75 18c0-.034 0-.067.002-.1a25.05 25.05 0 0 0 4.496 0l.002.1a2.25 2.25 0 1 1-4.5 0Z"
-                            clip-rule="evenodd" />
-                    </svg>
 
-                </div>
-            </div>
-            <div class="match-versus">
-                <div class="teams-container">
-                    <div class="team-info">
-                        <img src="img/dyj.png" alt="" class="team-logo">
-                        <span class="team-name">Defensa y Justicia</span>
+                <div class="teams-versus">
+                    <div class="team-container">
+                        <div class="team-logo">
+                            <img src="img/riv.png" alt="logo" class="local-logo">
+                        </div>
+                        <div class="team-name">
+                            <span class="local-name">River Plate</span>
+                        </div>
+                        <div class="scores">
+                            <span class="local-score"></span>
+                        </div>
                     </div>
-                    <div class="team-info">
-                        <img src="img/cco.png" alt="" class="team-logo">
-                        <span class="visit-name">Central Córdoba</span>
+    
+                    <div class="team-container">
+                        <div class="team-logo">
+                            <img src="img/argjr.png" alt="logo" class="local-logo">
+                        </div>
+                        <div class="team-name">
+                            <span class="local-name">Argentinos Juniors</span>
+                        </div>
+                        <div class="scores">
+                            <span class="local-score"></span>
+                        </div>
                     </div>
                 </div>
-                <div class="scores">
-                    <span class="local-score"></span>
-                    <span class="visit-score"></span>
-                </div>
-                <div class="match-status">
-                    <span class="status-info">18:00</span>
-                </div>
-                <div class="notifications">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                        <path
-                            d="M5.85 3.5a.75.75 0 0 0-1.117-1 9.719 9.719 0 0 0-2.348 4.876.75.75 0 0 0 1.479.248A8.219 8.219 0 0 1 5.85 3.5ZM19.267 2.5a.75.75 0 1 0-1.118 1 8.22 8.22 0 0 1 1.987 4.124.75.75 0 0 0 1.48-.248A9.72 9.72 0 0 0 19.266 2.5Z" />
-                        <path fill-rule="evenodd"
-                            d="M12 2.25A6.75 6.75 0 0 0 5.25 9v.75a8.217 8.217 0 0 1-2.119 5.52.75.75 0 0 0 .298 1.206c1.544.57 3.16.99 4.831 1.243a3.75 3.75 0 1 0 7.48 0 24.583 24.583 0 0 0 4.83-1.244.75.75 0 0 0 .298-1.205 8.217 8.217 0 0 1-2.118-5.52V9A6.75 6.75 0 0 0 12 2.25ZM9.75 18c0-.034 0-.067.002-.1a25.05 25.05 0 0 0 4.496 0l.002.1a2.25 2.25 0 1 1-4.5 0Z"
-                            clip-rule="evenodd" />
-                    </svg>
 
+                <div class="match-status-ctn">
+                    <span class="timer"></span>
+                    <span class="hour">17:30</span>
                 </div>
-            </div>
-            <div class="match-versus">
-                <div class="teams-container">
-                    <div class="team-info">
-                        <img src="img/cat.png" alt="" class="team-logo">
-                        <span class="team-name">Tigre</span>
-                    </div>
-                    <div class="team-info">
-                        <img src="img/argjr.png" alt="" class="team-logo">
-                        <span class="visit-name">Argentinos Juniors</span>
-                    </div>
-                </div>
-                <div class="scores">
-                    <span class="local-score"></span>
-                    <span class="visit-score"></span>
-                </div>
-                <div class="match-status">
-                    <span class="status-info">21:15</span>
-                </div>
-                <div class="notifications">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                        <path
-                            d="M5.85 3.5a.75.75 0 0 0-1.117-1 9.719 9.719 0 0 0-2.348 4.876.75.75 0 0 0 1.479.248A8.219 8.219 0 0 1 5.85 3.5ZM19.267 2.5a.75.75 0 1 0-1.118 1 8.22 8.22 0 0 1 1.987 4.124.75.75 0 0 0 1.48-.248A9.72 9.72 0 0 0 19.266 2.5Z" />
-                        <path fill-rule="evenodd"
-                            d="M12 2.25A6.75 6.75 0 0 0 5.25 9v.75a8.217 8.217 0 0 1-2.119 5.52.75.75 0 0 0 .298 1.206c1.544.57 3.16.99 4.831 1.243a3.75 3.75 0 1 0 7.48 0 24.583 24.583 0 0 0 4.83-1.244.75.75 0 0 0 .298-1.205 8.217 8.217 0 0 1-2.118-5.52V9A6.75 6.75 0 0 0 12 2.25ZM9.75 18c0-.034 0-.067.002-.1a25.05 25.05 0 0 0 4.496 0l.002.1a2.25 2.25 0 1 1-4.5 0Z"
-                            clip-rule="evenodd" />
-                    </svg>
 
-                </div>
             </div>
+
             <div class="league-info">
                 <div class="country">
                     <img src="img/flags/en.svg" class="country-flag">
@@ -176,34 +139,43 @@
                 </div>
                 <div class="table-btn">VER TABLA</div>
             </div>
-            <div class="match-versus">
-                <div class="teams-container">
-                    <div class="team-info">
-                        <img src="img/mun.png" alt="" class="team-logo">
-                        <span class="team-name">Manchester United</span>
-                    </div>
-                    <div class="team-info">
-                        <img src="img/ars.png" alt="" class="team-logo">
-                        <span class="visit-name">Arsenal</span>
-                    </div>
-                </div>
-                <div class="scores">
-                    <span class="local-score"></span>
-                    <span class="visit-score"></span>
-                </div>
-                <div class="match-status">
-                    <span class="status-info">10:00</span>
-                </div>
-                <div class="notifications">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                        <path
-                            d="M5.85 3.5a.75.75 0 0 0-1.117-1 9.719 9.719 0 0 0-2.348 4.876.75.75 0 0 0 1.479.248A8.219 8.219 0 0 1 5.85 3.5ZM19.267 2.5a.75.75 0 1 0-1.118 1 8.22 8.22 0 0 1 1.987 4.124.75.75 0 0 0 1.48-.248A9.72 9.72 0 0 0 19.266 2.5Z" />
-                        <path fill-rule="evenodd"
-                            d="M12 2.25A6.75 6.75 0 0 0 5.25 9v.75a8.217 8.217 0 0 1-2.119 5.52.75.75 0 0 0 .298 1.206c1.544.57 3.16.99 4.831 1.243a3.75 3.75 0 1 0 7.48 0 24.583 24.583 0 0 0 4.83-1.244.75.75 0 0 0 .298-1.205 8.217 8.217 0 0 1-2.118-5.52V9A6.75 6.75 0 0 0 12 2.25ZM9.75 18c0-.034 0-.067.002-.1a25.05 25.05 0 0 0 4.496 0l.002.1a2.25 2.25 0 1 1-4.5 0Z"
-                            clip-rule="evenodd" />
-                    </svg>
 
+            <div class="match-versus">
+                <div class="tv-logo">
+                    <img src="img/espn.png" alt="">
                 </div>
+
+                <div class="teams-versus">
+                    <div class="team-container">
+                        <div class="team-logo">
+                            <img src="img/ars.png" alt="logo" class="local-logo">
+                        </div>
+                        <div class="team-name">
+                            <span class="local-name">Arsenal</span>
+                        </div>
+                        <div class="scores">
+                            <span class="local-score"></span>
+                        </div>
+                    </div>
+    
+                    <div class="team-container">
+                        <div class="team-logo">
+                            <img src="img/mun.png" alt="logo" class="local-logo">
+                        </div>
+                        <div class="team-name">
+                            <span class="local-name">Man United</span>
+                        </div>
+                        <div class="scores">
+                            <span class="local-score"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="match-status-ctn">
+                    <span class="timer"></span>
+                    <span class="hour">11:00</span>
+                </div>
+
             </div>
         </section>
 
