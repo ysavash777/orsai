@@ -234,14 +234,10 @@ body {
 }
 
 .scores {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
     font-weight: bold;
-    width: 40px;
-    align-items: center;
     color: #ffab3e;
-    font-size: 15px;
+    width: 30px;
+    text-align: right;
 }
 
 .match-status {
@@ -262,4 +258,9 @@ body {
     width: 60px;
     height: 40px;
     justify-content: center;
+}
+
+.team-name {
+    width: 130px;
+    font-size: 12px;
 }
